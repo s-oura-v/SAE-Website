@@ -33,7 +33,8 @@ function NavBar(props: { BgColor: string }) {
         />
       </Link>
 
-      <div className={styles.linkContainer}>
+      <div className={styles.linkContainer
+      }>
         <motion.li
           whileHover={{ scale: 1.3, originX: 0, color: " " }}
           transition={{ type: "spring", stiffness: 180 }}
@@ -84,6 +85,17 @@ function NavBar(props: { BgColor: string }) {
             Projects
           </Nav.Link>{" "}
         </motion.li>{" "}
+        <motion.li
+          whileHover={{ scale: 1.3, originX: 0, color: " " }}
+          transition={{ type: "spring", stiffness: 180 }}
+          className={styles.animate}
+        >
+          {" "}
+          <Nav.Link href="/sponsers" className={styles.links}>
+            Sponsers
+          </Nav.Link>{" "}
+        </motion.li>{" "}
+       
       </div>
 
       <motion.button
