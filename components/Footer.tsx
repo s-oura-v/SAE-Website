@@ -51,7 +51,7 @@ function Footer() {
             <Link href="/">Events</Link>
             <Link href="/">About us</Link>
             <Link href="/">Workshops</Link>
-            <img src="/images/upArrow.svg" className={styles.upArrow} />
+            <img src="/images/upArrow.svg" alt="upArrow" className={styles.upArrow} />
           </div>
           <h4 className={styles.connectLogo}>
             Connect to us on :

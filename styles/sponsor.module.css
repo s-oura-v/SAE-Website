@@ -11,13 +11,13 @@
 
 .sponsorContainer { text-align: center; color: white; padding: 30px; background-color: #1b1a1b; animation: fadeIn 2s ease; }
 /* .firstLine { font-size: 20px; font-weight: bold; } */
-.secondLine { font-size: 30px; font-weight: bold; }
+.secondLine { font-size: 40px; font-weight: bold; }
 @keyframes fadeIn { 0% { opacity: 0; transform: translateY(-20px); } 100% { opacity: 1; transform: translateY(0); } }
 
 .highlight { color: #FFD700; font-weight: bold; }
 
 .container { text-align: center; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); font-weight: bold; animation: fadeIn 2s ease;}
-.headline { font-size: 40px; color: #333; margin-bottom: 20px; }
+.headline { font-size: 35px; color: #333; margin-bottom: 20px; }
 .subtext { font-size: 25px; color: #2c2c2c; line-height: 1.5; } 
 @keyframes fadeIn { 0% { opacity: 0; transform: translateY(-20px); } 100% { opacity: 1; transform: translateY(0); } }
 
