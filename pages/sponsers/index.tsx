@@ -65,21 +65,21 @@ class Index extends Component<{}, IndexState> {
           <div className="sponsor-page bg-gray-100 min-h-screen flex flex-col items-center justify-center">
             <div className={styles.hello}>
               <div className={styles.row}>
-                {this.renderSponsorCard({ src: '/sponsor-images/jaguar.png', backgroundColor: '#deeae2', index: 0 })}
-                {this.renderSponsorCard({ src: '/sponsor-images/bmw.png', backgroundColor: '#deeae2', index: 1 })}
-                {this.renderSponsorCard({ src: '/sponsor-images/mercedes1.png', backgroundColor: '#deeae2', index: 2 })}
+                {this.renderSponsorCard({ src: '/sponsor-images/jaguar.png', backgroundColor: '#FFFFF0', index: 0 })}
+                {this.renderSponsorCard({ src: '/sponsor-images/bmw.png', backgroundColor: '#FFFFF0', index: 1 })}
+                {this.renderSponsorCard({ src: '/sponsor-images/mercedes1.png', backgroundColor: '#FFFFF0', index: 2 })}
               </div>
 
               <div className={styles.row}>
-                {this.renderSponsorCard({ src: '/sponsor-images/unilever1.png', backgroundColor: '#deeae2', index: 3 })}
-                {this.renderSponsorCard({ src: '/sponsor-images/itc2.png', backgroundColor: '#deeae2', index: 4 })}
-                {this.renderSponsorCard({ src: '/sponsor-images/bhel.webp', backgroundColor: '#deeae2', index: 5 })}
+                {this.renderSponsorCard({ src: '/sponsor-images/unilever1.png', backgroundColor: '#FFFFF0', index: 3 })}
+                {this.renderSponsorCard({ src: '/sponsor-images/itc2.png', backgroundColor: '#FFFFF0', index: 4 })}
+                {this.renderSponsorCard({ src: '/sponsor-images/bhel.webp', backgroundColor: '#FFFFF0	', index: 5 })}
               </div>
 
               <div className={styles.row}>
-                {this.renderSponsorCard({ src: '/sponsor-images/lg3.png', backgroundColor: '#deeae2', index: 6 })}
-                {this.renderSponsorCard({ src: '/sponsor-images/Land-Rover.png', backgroundColor: '#deeae2', index: 7 })}
-                {this.renderSponsorCard({ src: '/sponsor-images/hy.png', backgroundColor: '#deeae2', index: 8 })}
+                {this.renderSponsorCard({ src: '/sponsor-images/lg3.png', backgroundColor: '#FFFFF0	', index: 6 })}
+                {this.renderSponsorCard({ src: '/sponsor-images/Land-Rover.png', backgroundColor: '#FFFFF0	', index: 7 })}
+                {this.renderSponsorCard({ src: '/sponsor-images/hy.png', backgroundColor: '#FFFFF0	', index: 8 })}
               </div>
             </div>
           </div>
