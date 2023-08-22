@@ -1,36 +1,73 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Outfit&display=swap");
 
-.father { background-color: rgb(146, 132, 118);  }
-.hello { background-color: beige;}
+.father { background-color: rgb(154, 141, 125);  }
+.hello { background-color: rgb(163, 150, 150);}
 .row { display: flex; flex-wrap: wrap; justify-content: center; gap: 70px; margin: 0; }
-.card { margin: 50px 0 30px; display: flex; justify-content: center; align-items: center; background-color: rgb(252, 255, 255); border-radius: 10px; box-shadow: 0 0 20px black; flex-direction: column; padding: 30px; text-align: center; width: 90vw; max-width: 350px; height: 250px; transition: transform 0.2s ease-in-out; }
+.card { margin: 50px 0 30px; display: flex; justify-content: center; align-items: center; background-color: rgb(252, 255, 255);  box-shadow: 0 0 30px rgb(89, 64, 57); flex-direction: column; padding: 30px; text-align: center; width: 90vw; max-width: 350px; height: 250px; transition: transform 0.2s ease-in-out; }
 .card:hover { transform: translateY(-5px); }
 .card img { max-width: 100%; height: auto; border-radius: 10px; }
 
-/* h1{
-    color: #f5f5f5;
-} */
 
 .sponsorContainer { text-align: center; color: white; padding: 30px; background-color: #1b1a1b; animation: fadeIn 2s ease; }
-/* .firstLine { font-size: 20px; font-weight: bold; } */
 .secondLine { font-size: 40px; font-weight: bold; }
 @keyframes fadeIn { 0% { opacity: 0; transform: translateY(-20px); } 100% { opacity: 1; transform: translateY(0); } }
-
 .highlight { color: #FFD700; font-weight: bold; }
 
-.container { text-align: center; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); font-weight: bold; animation: fadeIn 2s ease;}
+
+.presentsponsorContainer { text-align: center; color: rgb(0, 0, 0); padding: 30px; background-color: #d1dbc9; }
+.presentsecondLine { font-size: 40px; font-weight: bold; }
+@keyframes fadeIn { 0% { opacity: 0; transform: translateY(-20px); } 100% { opacity: 1; transform: translateY(0); } }
+.presenthighlight { color: #9d369b; font-weight: bold; }
+
+
+.pastsponsorContainer { text-align: center; color: rgb(5, 5, 5); padding: 30px; background-color: #b8d2d5;}
+.pastsecondLine { font-size: 40px; font-weight: bold; }
+@keyframes fadeIn { 0% { opacity: 0; transform: translateY(-20px); } 100% { opacity: 1; transform: translateY(0); } }
+.pasthighlight { color: #917c06; font-weight: bold; }
+
+
+
+.container { text-align: center; padding: 20px; background-color: #fff; box-shadow: 0 4px 8px rgba(38, 35, 35, 0.1); font-weight: bold; animation: fadeIn 2s ease;}
 .headline { font-size: 35px; color: #544f4f;margin-top: 10px; margin-bottom: 20px; }
 .subtext { font-size: 25px; color: #372626; line-height: 1.5; margin-top: 10px;margin-bottom: 20px; } 
 @keyframes fadeIn { 0% { opacity: 0; transform: translateY(-20px); } 100% { opacity: 1; transform: translateY(0); } }
 
 
 
-.card { perspective: 1000px; }
+.card { perspective: 150px; }
 .img { width: 200px; height: 200px; transform-style: preserve-3d; animation: none; }
 .card:hover .img { animation: flip 0.5s forwards; }
 @keyframes flip { 0% { transform: rotateY(0deg); } 100% { transform: rotateY(360deg); } }
 
-.hello { background: linear-gradient(-90deg, rgb(91, 87, 87), rgb(49, 50, 50), rgb(64, 63, 65), rgb(96, 98, 97)); background-size: 400% 400%; animation: gradient 15s ease infinite; }
+.hello { background: linear-gradient(-90deg, rgb(240, 243, 231), rgb(240, 235, 232), rgb(218, 215, 225), rgb(228, 231, 230)); background-size: 400% 400%; animation: gradient 5s ease infinite; -webkit-animation: gradient 5s ease infinite; }
 @keyframes gradient { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
 
-.hello .child.hovered { background-color: white; }
+.hello .child.hovered { background-color: rgb(249, 249, 249); }
+
+
+.pasthello { background-color: rgb(180, 180, 169);}
+.pastrow { display: flex; flex-wrap: wrap; justify-content: center; gap: 70px; margin: 0; }
+
+
+
+
+
+
+
+.pasthello { background: linear-gradient(-90deg, rgb(232, 234, 239), rgb(225, 234, 229), rgb(225, 233, 237), rgb(243, 239, 240)); background-size: 400% 400%; animation: gradient 7s ease infinite; -webkit-animation: gradient 7s ease infinite; }
+@keyframes gradient { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+
+.pasthello .child.hovered { background-color: rgb(107, 86, 86); }
+
+
+
+
+
+
+
+
+
+
+
+
+
